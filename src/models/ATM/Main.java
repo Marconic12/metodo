@@ -7,13 +7,13 @@ public class Main
         Cliente cliente1 = new Cliente("Marco","121-301299-1005C");
         Cuenta miCuenta = new Cuenta(cliente1,0,1234);
 
-        miCuenta.AgregarMonto(5000);
+       double monto = miCuenta.AgregarMonto(5000);
 
 
         double montoActual = miCuenta.RetirarMonto(2000);
 
 
-        System.out.println("el monto actual de su cuenta es " + montoActual);
+        System.out.println("el monto actual de su cuenta es " + (monto - montoActual));
 
 //        if(montoActual == 0)
 //        {

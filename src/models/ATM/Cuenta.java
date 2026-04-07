@@ -22,9 +22,9 @@ public class Cuenta
         this.saldoInicial = saldoInicial;
     }
 
-    public void AgregarMonto(double monto)
+    public double AgregarMonto(double monto)
     {
-        this.saldoInicial +=  monto;
+        return this.saldoInicial +=  monto;
     }
 
 
