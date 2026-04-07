@@ -19,7 +19,7 @@ public class Main {
             System.out.print("Seleccione una opción: ");
 
             opcion = sc.nextInt();
-            sc.nextLine(); // limpiar buffer
+            sc.nextLine(); 
 
             switch (opcion) {
                 case 1:
