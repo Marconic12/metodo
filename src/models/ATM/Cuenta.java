@@ -46,4 +46,9 @@ public class Cuenta
     {
         return "el saldo de su cuenta es " + saldoInicial;
     }
+
+    public String getSaldoInicial()
+    {
+        return "el saldo de su cuenta es " + this.saldoInicial;
+    }
 }

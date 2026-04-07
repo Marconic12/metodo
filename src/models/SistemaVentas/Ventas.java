@@ -1,4 +1,7 @@
 package models.SistemaVentas;
 
-public class Ventas {
+public class Ventas
+{
+
+
 }
